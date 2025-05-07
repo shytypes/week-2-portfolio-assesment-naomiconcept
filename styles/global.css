@@ -28,7 +28,7 @@ body {
 
 .contact-container {
   display: flex;
-  flex-direction: right;
+  justify-content: right;
 }
 
 .profile-container {
