@@ -27,8 +27,7 @@ body {
 }
 
 .contact-container {
-  display: flex;
-  justify-content: right;
+  text-align: center;
 }
 
 .profile-container {
