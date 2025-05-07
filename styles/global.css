@@ -26,6 +26,11 @@ body {
   gap: 20px;
 }
 
+.contact-container {
+  display: flex;
+  flex-direction: right;
+}
+
 .profile-container {
   display: flex;
   justify-content: space-between;
