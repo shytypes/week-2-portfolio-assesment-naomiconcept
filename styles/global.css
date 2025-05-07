@@ -2,9 +2,133 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: 'JetBrains Mono', monospace;
+}
+body {
+  background-color: black;
 }
 
 /*title text style*/
 /* the font-family 'JetBrains Mono', has been linked
- * and is available for your use
- * */
+   * and is available for your use
+   * */
+
+.main-container {
+  padding-left: 20px;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px;
+  width: 60%;
+  height: 9rem;
+  padding-left: 2rem;
+  margin-right: 6rem;
+  margin-top: 2rem;
+}
+
+.profile-details p {
+  color: black;
+}
+
+.inner-container-spacing {
+  margin-top: 13px;
+}
+
+.summary-box {
+  text-align: center;
+}
+
+.summary-box p,
+h2 {
+  color: white;
+  line-height: 2rem;
+}
+
+.education {
+  padding-left: 3rem;
+  padding-top: 1rem;
+}
+
+.education h1,
+p {
+  color: white;
+  padding-left: 0;
+}
+
+.experience {
+  padding-left: 3rem;
+  padding-top: 1rem;
+}
+
+.experience h1,
+p {
+  color: white;
+  padding-left: 0;
+  padding-top: 0.2rem;
+}
+.twin {
+  display: flex;
+  /* gap: 7rem; */
+  justify-content: space-between;
+}
+
+.hobbies {
+  /* flex-grow: 1; */
+  width: 40%;
+  padding-left: 3rem;
+  padding-top: 1rem;
+}
+
+.hobbies h1,
+p {
+  color: white;
+  padding-left: 0;
+  padding-top: 0.2rem;
+}
+
+.skills {
+  /* flex-grow: 1; */
+  width: 40%;
+  padding-top: 1rem;
+  padding-left: 4rem;
+}
+
+.skills h1,
+p {
+  color: white;
+  padding-top: 0.2rem;
+}
+
+h1 {
+  color: white;
+  padding-top: 1rem;
+  padding-left: 2rem;
+}
+ul {
+  color: white;
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+li {
+  padding-bottom: 2px;
+}
