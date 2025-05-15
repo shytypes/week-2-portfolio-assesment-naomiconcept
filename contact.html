@@ -13,10 +13,11 @@
     />
     <!-- local style -->
     <link rel="stylesheet" href="styles/global.css" />
+    <script src="index.js" defer></script>
   </head>
   <body>
     <div class="form-container main-container">
-      <form action="">
+      <form id="myForm">
         <label for="fname">First Name</label>
         <input
           type="text"
@@ -45,9 +46,10 @@
         />
         <br />
         <label for="message">Message</label>
-        <input type="text" placeholder="got any message for me?" />
+        <input type="text" id="message" placeholder="got any message for me?" />
         <input type="submit" value="Submit" />
       </form>
     </div>
+    <div id="formDetails"></div>
   </body>
 </html>

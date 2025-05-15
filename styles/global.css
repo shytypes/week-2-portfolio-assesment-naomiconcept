@@ -164,3 +164,10 @@ input {
 input[type='submit']:hover {
   background-color: palevioletred;
 }
+
+#formDetails {
+  padding-left: 20px;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
