@@ -7,7 +7,7 @@ document.getElementById('myForm').addEventListener('submit', function (event) {
   const message = document.getElementById('message').value
 
   const formDetails = document.getElementById('formDetails')
-  formDetails.innerHTML = ` <h3 style = "color: white;">Thank you for reaching out😃</h3>
+  formDetails.innerHTML = ` <h2 style = "color: white;">Thank you for reaching out😃</h2>
                             <p><strong>First Name: </strong> ${fname}</p>
                             <p><strong>Second Name: </strong> ${sname}</p>
                             <p><strong>Email: </strong> ${email}</p>
